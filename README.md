@@ -214,19 +214,19 @@ It must **not** be used as the sole basis for railway safety decisions. Suspecte
 
 **V Revanth**
 
-B.Tech — Computer Science and Engineering  
-Specialization: Artificial Intelligence and Machine Learning  
+B.Tech — Computer Science and Engineering   
 VIT-AP University
 
 ### 🔗 Project Links
 
 - **Live Application:** [Detection-of-defective-railway-tracks
  on Streamlit](https://railguard-ai-capestone.streamlit.app/)
-- **GitHub Repository:** [Salma1612/Detection-of-defective-railway-tracks
+- **GitHub Repository:** [/Detection-of-defective-railway-tracks
 ](https://github.com/Salma1612/RailGuard-AI)
 
 ---
 
 ⭐ If you find this project interesting, consider starring the repository on GitHub.
 
-**RailGuard AI — Exploring safer railway infrastructure through AI-powered image classification.**
+**Detection-of-defective-railway-tracks
+ — Exploring safer railway infrastructure through AI-powered image classification.**

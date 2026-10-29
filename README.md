@@ -1,5 +1,5 @@
 
-# 🚆 RailGuard AI — Railway Track Defect Detection
+# 🚆 Detection-of-defective-railway-tracks
 
 ### AI-Powered Railway Track Inspection Using Deep Learning
 

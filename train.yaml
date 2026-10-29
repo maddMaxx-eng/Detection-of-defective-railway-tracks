@@ -1,0 +1,37 @@
+# Training configuration shared by BOTH models so the comparison is fair.
+# Edit values here, then run:  python -m scripts.train --model all
+seed: 42
+image_size: 224          # must match railguard.config.IMAGE_SIZE
+batch_size: 16
+num_workers: 2           # set to 0 on Windows if you see DataLoader errors
+dropout: 0.3
+label_smoothing: 0.05
+weight_decay: 0.0001
+imbalance: class_weights # class_weights | sampler | none
+freeze_bn: true          # keep BatchNorm statistics fixed during training
+early_stopping_patience: 5
+
+# Phase 1: backbone frozen, only the new 5-class head learns.
+head_epochs: 8
+# Phase 2: unfreeze the last blocks of the backbone and fine-tune with a small LR.
+finetune_epochs: 12
+
+# Per-model settings. Epochs/batch/augmentation/splits are identical; only the
+# learning rates and the first fine-tuned block differ because the two networks
+# have different depths (MobileNetV2 has 19 feature blocks, EfficientNetB0 has 9).
+models:
+  mobilenet_v2:
+    head_lr: 0.001
+    finetune_lr: 0.0001
+    finetune_from_block: 14   # unfreeze features[14:]  (last 5 blocks)
+  efficientnet_b0:
+    head_lr: 0.001
+    finetune_lr: 0.00005
+    finetune_from_block: 6    # unfreeze features[6:]   (last 3 stages)
+
+evaluation:
+  latency_warmup: 20
+  latency_runs: 100
+  # Winner rule: higher macro-F1 wins unless the gap is smaller than this
+  # tolerance, in which case the faster model (median CPU latency) wins.
+  macro_f1_tolerance: 0.01

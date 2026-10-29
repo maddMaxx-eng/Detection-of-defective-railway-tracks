@@ -11,7 +11,8 @@
 **RailGuard AI** is a deep learning-based railway track inspection project designed to classify railway track images into five categories. It uses trained convolutional neural network models to support the identification of potential track defects from uploaded images.
 
 🌐 **Live Application:**  
-### 👉 [Launch RailGuard AI](https://railguard-ai-capestone.streamlit.app/)
+### 👉 [Launch Detection-of-defective-railway-tracks
+](https://railguard-ai-capestone.streamlit.app/)
 
 ---
 

@@ -161,7 +161,8 @@ The application will open in your browser. If it does not open automatically, us
 
 ## 📊 Model Inference Workflow
 
-1. Open the RailGuard AI application.
+1. Open the Detection-of-defective-railway-tracks
+ application.
 2. Upload a railway track image.
 3. Select MobileNetV2 or EfficientNetB0.
 4. Click **Analyze Track**.
@@ -185,9 +186,11 @@ The application displays:
 
 ## 🚀 Deployment
 
-RailGuard AI is deployed using Streamlit Community Cloud.
+Detection-of-defective-railway-tracks
+ is deployed using Streamlit Community Cloud.
 
-🌐 **Live Demo:** [https://railguard-ai-capestone.streamlit.app/](https://railguard-ai-capestone.streamlit.app/)
+🌐 **Live Demo:** [https://Detection-of-defective-railway-tracks
+-capestone.streamlit.app/](https://railguard-ai-capestone.streamlit.app/)
 
 The application source code and trained model checkpoints are maintained in this GitHub repository.
 
@@ -202,13 +205,14 @@ The application source code and trained model checkpoints are maintained in this
 
 ## ⚠️ Limitations and Safety Disclaimer
 
-RailGuard AI is an educational and research prototype for image classification. Its predictions may be affected by image quality, lighting, camera angle, dataset limitations, and differences between training images and real-world conditions.
+Detection-of-defective-railway-tracks
+ is an educational and research prototype for image classification. Its predictions may be affected by image quality, lighting, camera angle, dataset limitations, and differences between training images and real-world conditions.
 
 It must **not** be used as the sole basis for railway safety decisions. Suspected defects require inspection by qualified railway personnel using appropriate inspection procedures.
 
 ## 👩‍💻 Author
 
-**Shaik Salma**
+**V Revanth**
 
 B.Tech — Computer Science and Engineering  
 Specialization: Artificial Intelligence and Machine Learning  
@@ -216,8 +220,10 @@ VIT-AP University
 
 ### 🔗 Project Links
 
-- **Live Application:** [RailGuard AI on Streamlit](https://railguard-ai-capestone.streamlit.app/)
-- **GitHub Repository:** [Salma1612/RailGuard-AI](https://github.com/Salma1612/RailGuard-AI)
+- **Live Application:** [Detection-of-defective-railway-tracks
+ on Streamlit](https://railguard-ai-capestone.streamlit.app/)
+- **GitHub Repository:** [Salma1612/Detection-of-defective-railway-tracks
+](https://github.com/Salma1612/RailGuard-AI)
 
 ---
 

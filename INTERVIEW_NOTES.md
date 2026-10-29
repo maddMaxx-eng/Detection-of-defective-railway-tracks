@@ -1,4 +1,5 @@
-# Interview notes – RailGuard AI
+# Interview notes – Detection-of-defective-railway-tracks
+
 
 **One-line pitch:** an end-to-end system that classifies railway-track photos into five defect categories and
 fairly compares MobileNetV2 vs EfficientNetB0 on a leakage-free split, served through FastAPI and a Next.js dashboard.

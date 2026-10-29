@@ -9,7 +9,8 @@ from railguard import config
 
 # -------------------- PAGE CONFIGURATION --------------------
 st.set_page_config(
-    page_title="RailGuard AI",
+    page_title="Detection-of-defective-railway-tracks
+",
     page_icon="🚆",
     layout="wide",
 )
@@ -49,7 +50,8 @@ def load_predictor():
 
 # -------------------- HEADER --------------------
 st.markdown(
-    '<p class="main-title">🚆 RailGuard AI</p>',
+    '<p class="main-title">🚆 Detection-of-defective-railway-tracks
+</p>',
     unsafe_allow_html=True,
 )
 st.markdown(
@@ -186,6 +188,7 @@ else:
 # -------------------- FOOTER --------------------
 st.divider()
 st.caption(
-    "RailGuard AI | MobileNetV2 + EfficientNetB0 | "
+    "Detection-of-defective-railway-tracks
+ | MobileNetV2 + EfficientNetB0 | "
     "Research prototype — not a substitute for railway safety inspection."
 )

@@ -1,0 +1,44 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+npm-debug.log*
+
+# Generated at install/build time by scripts/copy-ort.mjs (copied from node_modules)
+public/ort/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Secrets & local config
+.env
+.env.*
+!.env.example
+.vercel/
+
+# Datasets and runtime data (add images locally; see data/README.md for Git LFS advice)
+data/_smoke/
+data/*.zip
+history/
+*.db
+
+# Weights: only the two small trained checkpoints (committed) and their ONNX exports are tracked
+*.pth
+*.ckpt
+*.pt
+!models/mobilenet_v2_best.pt
+!models/efficientnet_b0_best.pt
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,100 @@
+{
+  "models": {
+    "mobilenet_v2": {
+      "id": "mobilenet_v2",
+      "name": "MobileNetV2",
+      "file": "mobilenet_v2.3644dedd.onnx",
+      "sha256": "3644dedde93dc082e9e95fcfde51137589098ea58b6e048847f0d533de6101c6",
+      "size_bytes": 10185532,
+      "input_name": "input",
+      "output_name": "logits",
+      "image_size": 224,
+      "class_names": [
+        "Broken Track",
+        "Loose Bolts",
+        "Missing Parts",
+        "Rust",
+        "Normal Track"
+      ],
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "checkpoint": {
+        "best_epoch": 17,
+        "trained_at": "2026-10-26T17:16:59+00:00",
+        "val_accuracy": 0.8963963963963963,
+        "val_macro_f1": 0.8294159544159545,
+        "pretrained_imagenet": true,
+        "split_fingerprint": "3a553c5f04f204370a985619b7bc627e29767403e1df848502ec60efa6c7f7c9",
+        "torch_version": "2.11.0+cu130",
+        "railguard_version": "1.0.0"
+      },
+      "onnx_parity": {
+        "opset": 17,
+        "max_abs_logit_diff": 3.993511199951172e-06,
+        "max_abs_prob_diff": 8.046627044677734e-07,
+        "argmax_agreement": "9/9",
+        "n_inputs": 9
+      }
+    },
+    "efficientnet_b0": {
+      "id": "efficientnet_b0",
+      "name": "EfficientNetB0",
+      "file": "efficientnet_b0.43085300.onnx",
+      "sha256": "43085300c7cf8db1c9cc7e4f0dfe33928a9547235adce74f31fcd3309937bb01",
+      "size_bytes": 17337463,
+      "input_name": "input",
+      "output_name": "logits",
+      "image_size": 224,
+      "class_names": [
+        "Broken Track",
+        "Loose Bolts",
+        "Missing Parts",
+        "Rust",
+        "Normal Track"
+      ],
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "checkpoint": {
+        "best_epoch": 14,
+        "trained_at": "2026-10-26T18:05:27+00:00",
+        "val_accuracy": 0.9099099099099099,
+        "val_macro_f1": 0.8265732502431469,
+        "pretrained_imagenet": true,
+        "split_fingerprint": "3a553c5f04f204370a985619b7bc627e29767403e1df848502ec60efa6c7f7c9",
+        "torch_version": "2.11.0+cu130",
+        "railguard_version": "1.0.0"
+      },
+      "onnx_parity": {
+        "opset": 17,
+        "max_abs_logit_diff": 1.1444091796875e-05,
+        "max_abs_prob_diff": 3.5762786865234375e-07,
+        "argmax_agreement": "9/9",
+        "n_inputs": 9
+      }
+    }
+  },
+  "class_names": [
+    "Broken Track",
+    "Loose Bolts",
+    "Missing Parts",
+    "Rust",
+    "Normal Track"
+  ],
+  "generated_at": "2026-10-27T08:29:45+00:00"
+}

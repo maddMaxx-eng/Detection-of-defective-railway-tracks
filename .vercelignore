@@ -1,0 +1,12 @@
+# Not needed to build or serve the website (relevant for `vercel deploy` from a local folder)
+models/
+railguard/
+scripts/*.py
+configs/
+tests/
+docs/
+data/
+artifacts/
+*.pt
+__pycache__/
+.venv/
